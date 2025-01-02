@@ -1,0 +1,53 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+# #+REVEAL_THEME: sky
+#+REVEAL_EXTRA_CSS: ./css/blood.css
+#+REVEAL_EXTRA_CSS: ./css/fonts.css
+#+REVEAL_EXTERNAL_PLUGINS: (spotlight "js/spotlight.js" "plugin/spotlight.js")
+#+REVEAL_EXTRA_SCRIPT_SRC: ./js/caption.js
+#+REVEAL_EXTRA_SCRIPT_SRC: ./js/style.js
+#+REVEAL_PLUGINS: (highlight)
+#+REVEAL_HIGHLIGHT_CSS: https://cdn.jsdelivr.net/npm/reveal.js@4.2.0/plugin/highlight/monokai.css
+#+OPTIONS: reveal_global_footer:t
+#+OPTIONS: timestamp:nil toc:2 num:nil
+:END:
+
+#+title: Unemployment Case
+#+AUTHOR: Pedro G. Branquinho
+#+OPTIONS: toc:nil
+
+* View this presentation
+** QR Code
+#+ATTR_HTML: :width 600px
+[[file:img/qrcode-presentation.png]]
+* Data around Unemployment
+
+** Jovens, sem ocupação (Homens)
+:PROPERTIES:
+:reveal_background_position: absolute
+:reveal_extra_attr: height: 130px; bottom: -700px; border-radius: 10px; padding: 20px;
+:reveal_background_iframe: https://data.worldbank.org/share/widget?end=2023&indicators=SL.UEM.NEET.MA.ZS&locations=BR&name_desc=false&start=2023&type=shaded&view=map&year=2023
+:END:
+
+# :reveal_src_iframe: https://data.worldbank.org/share/widget?end=2023&indicators=SL.UEM.NEET.MA.ZS&locations=BR&name_desc=false&start=2023&type=shaded&view=map&year=2023
+# :reveal_iframe_width: 1200
+# :reveal_iframe_height: 800
+# :reveal_iframe_frameborder: 0
+# :reveal_iframe_scroll: no
+# <iframe data-src="https://hakim.se" data-preload></iframe>
+# <iframe src="https://data.worldbank.org/share/widget?end=2023&indicators=SL.UEM.NEET.MA.ZS&locations=BR&name_desc=false&start=2023&type=shaded&view=map&year=2023" width='1200' height='800' frameBorder='0' scrolling="no" ></iframe>
+
+** Jovens, sem ocupação (Mulheres)
+:PROPERTIES:
+:reveal_background_position: absolute
+:reveal_extra_attr: height: 130px; bottom: -700px; border-radius: 10px; padding: 20px;
+:reveal_background_iframe: https://data.worldbank.org/share/widget?end=2023&indicators=SL.UEM.NEET.FE.ZS&locations=BR&name_desc=false&start=2023&type=shaded&view=map&year=2023
+:END:
+
+** Com educação avançada (superior completo)
+:PROPERTIES:
+:reveal_background_position: absolute
+:reveal_extra_attr: height: 130px; bottom: -700px; border-radius: 10px; padding: 20px;
+:reveal_background_iframe: https://data.worldbank.org/share/widget?end=2023&indicators=SL.UEM.ADVN.ZS&locations=BR&name_desc=false&start=2023&type=shaded&view=map&year=2023
+:END:
