@@ -13,7 +13,7 @@
 #+OPTIONS: timestamp:nil toc:2 num:nil
 :END:
 
-#+title: Case: Desemprego
+#+title: Case: Subemprego
 #+AUTHOR: Pedro G. Branquinho
 #+OPTIONS: toc:nil
 
@@ -55,19 +55,21 @@
 Desemprego típico: *4% - 6%*
 
 Exemplos:
-- Estados Unidos: 3,63%
-- Alemanha: 3,05%
-- Japão: 2,58%
+#+ATTR_REVEAL: :frag (roll-in)
+- **Estados Unidos**: 3,63%
+- **Alemanha**: 3,05%
+- **Japão**: 2,58%
 
 *** Não-Industrializados:
 Desemprego típico: *6% - 10%*, maior variação
 
 Exemplos:
-- Brasil: 7,95%
-- Rússia: 3,33%
-- Índia: 4,17%
-- China: 4,67%
-- África do Sul: 27,99%
+#+ATTR_REVEAL: :frag (roll-in)
+- **Brasil**: 7,95%
+- **Rússia**: 3,33%
+- **Índia**: 4,17%
+- **China**: 4,67%
+- **África do Sul**: 27,99%
 *** Referências
 - [[https://tradingeconomics.com][Trading Economics]]
 - [[https://www.weforum.org][World Economic Forum]]
@@ -88,11 +90,24 @@ Os desalentados são pessoas que gostariam de trabalhar e estariam disponíveis,
 #+end_quote
 
 ** Principais motivos listados
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
 #+ATTR_REVEAL: :frag (highlight-current-red)
 - Não encontrar trabalho na localidade;
 - Não conseguir trabalho adequado;
 - Não conseguir trabalho por ser considerado muito jovem ou idoso, ou;
 - Não ter experiência profissional ou qualificação;
+** Principais motivos listados
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+- Não encontrar trabalho na localidade;
+- Não conseguir trabalho adequado;
+- Não conseguir trabalho por ser considerado muito jovem ou idoso, ou;
+- Não ter experiência profissional ou qualificação;
+
+**Muito similar com a condição de subemprego**
 
 * Embasamento pra Iniciativa
 *The End of Work:*
@@ -109,7 +124,6 @@ _The Decline of the Global Labor Force and the Dawn of the Post-Market Era_,
 - Economia colaborativa
 - Prototipação rápida de soluções técnicas
 - Produto vs Emprego
-- "Desemprego sustentável"
 ** Dores atuais e futuras
 #+ATTR_REVEAL: :frag (appear)
 - Incapacidade de se capacitar o suficiente;
@@ -131,21 +145,22 @@ _The Decline of the Global Labor Force and the Dawn of the Post-Market Era_,
 ** Arrecadação/Investimento inicial
 #+ATTR_REVEAL: :frag (roll-in)
 - Construção de centros de inovação pós-mercadológicos.
-- Subsidiar a estadia dos primeiros *desalentados*.
+- Subsidiar a estadia das primeiros pessoas em subemprego.
 
 ** Modelo de inscrição
 *** Doação de bens (economia compartilhada)
 #+ATTR_REVEAL: :frag (appear)
 - Case de sucesso: bibliotecas 📚;
-- Bens de uso pra habitação 🏘;
-- Bens de uso para inovação ⚙.
+- Bens de uso pra habitação e do dia-a-dia 🏘;
+- Bens de uso para inovação ⚙;
 
 *** Doação de serviço
 #+ATTR_REVEAL: :frag (appear)
 - Criação de materiais didáticos 📖;
-- Laboratórios 󰄻;
-- Mentorias 󰋀;
-
+- Laboratórios;
+- Mentorias;
+# 󰄻
+# 󰋀
 *** Participação de ganhos
 :PROPERTIES:
 :REVEAL_EXTRA_ATTR: data-auto-animate
@@ -219,7 +234,7 @@ Primeiros passos:
 :REVEAL_EXTRA_ATTR: data-auto-animate
 :END:
 
-Primeiros passos:
+Primeiros passos da hub:
 #+ATTR_REVEAL: :data_id foo
 - Aplicativo de gerenciamento;
 - Hortas inteligentes;
@@ -228,3 +243,11 @@ Primeiros passos:
 - etc.
 
 Uma iniciativa, com propósito de abraçar uma **uberização inteligente**.
+
+** Projetos de extensão para própria hub
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+
+Uma iniciativa, com propósito de abraçar uma **uberização inteligente**.
+Uma solução **pós-mercadológica** e **holística**.
