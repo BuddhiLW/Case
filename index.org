@@ -13,16 +13,15 @@
 #+OPTIONS: timestamp:nil toc:2 num:nil
 :END:
 
-#+title: Unemployment Case
+#+title: Case: Desemprego
 #+AUTHOR: Pedro G. Branquinho
 #+OPTIONS: toc:nil
 
-* View this presentation
+* Acesse e salve essa apresentação
 ** QR Code
 #+ATTR_HTML: :width 600px
-[[file:img/qrcode-presentation.png]]
-* Data around Unemployment
-
+[[file:img/qrcode-case-presentation.png]]
+* Dados sobre desemprego
 ** Jovens, sem ocupação (Homens)
 :PROPERTIES:
 :reveal_background_position: absolute
@@ -45,9 +44,187 @@
 :reveal_background_iframe: https://data.worldbank.org/share/widget?end=2023&indicators=SL.UEM.NEET.FE.ZS&locations=BR&name_desc=false&start=2023&type=shaded&view=map&year=2023
 :END:
 
-** Com educação avançada (superior completo)
+** Com educação avançada (Superior Completo)
 :PROPERTIES:
 :reveal_background_position: absolute
 :reveal_extra_attr: height: 130px; bottom: -700px; border-radius: 10px; padding: 20px;
 :reveal_background_iframe: https://data.worldbank.org/share/widget?end=2023&indicators=SL.UEM.ADVN.ZS&locations=BR&name_desc=false&start=2023&type=shaded&view=map&year=2023
 :END:
+** Industrializados vs Não-Industrializados
+*** Industrializados:
+Desemprego típico: *4% - 6%*
+
+Exemplos:
+- Estados Unidos: 3,63%
+- Alemanha: 3,05%
+- Japão: 2,58%
+
+*** Não-Industrializados:
+Desemprego típico: *6% - 10%*, maior variação
+
+Exemplos:
+- Brasil: 7,95%
+- Rússia: 3,33%
+- Índia: 4,17%
+- China: 4,67%
+- África do Sul: 27,99%
+*** Referências
+- [[https://tradingeconomics.com][Trading Economics]]
+- [[https://www.weforum.org][World Economic Forum]]
+- [[https://www.statista.com][Statista]]
+- [[https://bricsjournal.com][BRICS Journal of Economics]]
+- [[https://www.statista.com][Statista]]
+- [[https://www.statista.com][Statista]]
+- [[https://www.cia.gov][CIA]]
+- [[https://en.wikipedia.org][Wikipedia]]
+- [[https://www.ilo.org][International Labour Organization]]
+- [[https://www.researchgate.net][ResearchGate]]
+- [[https://tradingeconomics.com][Trading Economics]]
+- [[https://jbsjournal.com][JBS Journal]]
+** Desalentados - 3.1 Milhões (7 Milhões)
+
+#+begin_quote
+Os desalentados são pessoas que gostariam de trabalhar e estariam disponíveis, porém não procuraram trabalho por acharem que não encontrariam.
+#+end_quote
+
+** Principais motivos listados
+#+ATTR_REVEAL: :frag (highlight-current-red)
+- Não encontrar trabalho na localidade;
+- Não conseguir trabalho adequado;
+- Não conseguir trabalho por ser considerado muito jovem ou idoso, ou;
+- Não ter experiência profissional ou qualificação;
+
+* Embasamento pra Iniciativa
+*The End of Work:*
+_The Decline of the Global Labor Force and the Dawn of the Post-Market Era_,
+
+/Jeremy Rifkin, 1995/
+
+** Livro
+#+ATTR_HTML: :width 380px
+[[file:img/The-End-of-Work.jpg]]
+** Capacitação e Transição pra era Pós-Mercado
+#+ATTR_REVEAL: :frag (appear)
+- STEM (Ciência, Tecnologia, Engenharia e Matemática)
+- Economia colaborativa
+- Prototipação rápida de soluções técnicas
+- Produto vs Emprego
+- "Desemprego sustentável"
+** Dores atuais e futuras
+#+ATTR_REVEAL: :frag (appear)
+- Incapacidade de se capacitar o suficiente;
+- Falta de acesso (por falta de capital);
+** Solução de longo-prazo
+#+ATTR_REVEAL: :frag (appear)
+- Soluções pós-mercado;
+- Soluções compartilhadas;
+- Rede de resiliência e prosperidade;
+
+* Centros de Inovação - Capacitação e Portifólio
+** Projetos integrados
+#+ATTR_REVEAL: :frag (appear)
+- Aprendizado, baseado em necessidades reais;
+- E.g.: Utilização de tecnologias de prototipação (Micro-Processadores);
+- Potencial de escalabilidade;
+- Produto se torna portifólio;
+
+** Arrecadação/Investimento inicial
+#+ATTR_REVEAL: :frag (roll-in)
+- Construção de centros de inovação pós-mercadológicos.
+- Subsidiar a estadia dos primeiros *desalentados*.
+
+** Modelo de inscrição
+*** Doação de bens (economia compartilhada)
+#+ATTR_REVEAL: :frag (appear)
+- Case de sucesso: bibliotecas 📚;
+- Bens de uso pra habitação 🏘;
+- Bens de uso para inovação ⚙.
+
+*** Doação de serviço
+#+ATTR_REVEAL: :frag (appear)
+- Criação de materiais didáticos 📖;
+- Laboratórios 󰄻;
+- Mentorias 󰋀;
+
+*** Participação de ganhos
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+
+#+ATTR_REVEAL: :data_id foo
+#+begin_quote
+Ao escalar soluções, uma parte do lucro retornaria para iniciativa.
+#+end_quote
+
+*** Participação de ganhos
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+
+#+ATTR_REVEAL: :data_id foo
+#+begin_quote
+Ao escalar soluções, uma parte do lucro retornaria para iniciativa.
+#+end_quote
+
+#+ATTR_REVEAL: :data_id bar
+O crescimento da solução, cresce proporcional ao sucesso da solução.
+$$\frac{d B}{d t}\propto B\quad\implies\quad \frac{dB}{dt}=k B$$
+
+*** Participação de ganhos
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+
+#+ATTR_REVEAL: :data_id foo
+#+begin_quote
+Ao escalar soluções, uma parte do lucro retornaria para iniciativa.
+#+end_quote
+
+#+ATTR_REVEAL: :data_id bar
+O crescimento da solução, cresce proporcional ao sucesso da solução.
+$$\frac{d B}{d t}\propto B\quad\implies\quad \frac{dB}{dt}=k B$$
+
+Solução com comportamento exponencial:
+$\therefore B=C e^{k t}$
+
+** Aplicativo de Gerenciamento
+#+ATTR_REVEAL: :frag (appear)
+- Gerenciar bens compartilhados;
+- Métricas de sustentabilidade;
+- Métricas de empregabilidade;
+
+** Hub de inovação e habitação
+Proposta para os *desalentados*:
+#+ATTR_REVEAL: :frag (appear)
+- Aprendizado como trabalho;
+- Aprendizado com propósito e projetos práticos;
+- Hub de capacitação, network, e criação (maker);
+
+** Projetos de extensão para própria hub
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+
+Primeiros passos:
+#+ATTR_REVEAL: :data_id foo
+#+ATTR_REVEAL: :frag (appear)
+- Aplicativo de gerenciamento;
+- Hortas inteligentes;
+- Otimização de recursos (gasto de água, reciclagem, compostagem, etc);
+- Construção de sistemas de energia limpas;
+- etc.
+
+** Projetos de extensão para própria hub
+:PROPERTIES:
+:REVEAL_EXTRA_ATTR: data-auto-animate
+:END:
+
+Primeiros passos:
+#+ATTR_REVEAL: :data_id foo
+- Aplicativo de gerenciamento;
+- Hortas inteligentes;
+- Otimização de recursos (gasto de água, reciclagem, compostagem, etc);
+- Construção de sistemas de energia limpas;
+- etc.
+
+Uma iniciativa, com propósito de abraçar uma **uberização inteligente**.
